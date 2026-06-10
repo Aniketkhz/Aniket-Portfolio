@@ -1,6 +1,9 @@
 export default function Skills() {
   return (
-    <section className="py-32 px-6 max-w-6xl mx-auto">
+    <section
+  id="skills"
+  className="py-32 px-6 max-w-6xl mx-auto"
+>
 
       <h2 className="text-5xl font-bold mb-4">
         Skills & Technologies
@@ -22,7 +25,7 @@ export default function Skills() {
             <span className="px-4 py-2 border border-gray-700 rounded-full">Python</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">JavaScript</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">SQL</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">C++</span>
+            <span className="px-4 py-2 border border-gray-700 rounded-full">Java</span>
           </div>
         </div>
 
@@ -43,11 +46,12 @@ export default function Skills() {
 
         <div className="border border-gray-800 rounded-3xl p-8">
           <h3 className="text-2xl font-bold mb-6">
-            Machine Learning
+            AI & Machine Learning
           </h3>
 
           <div className="flex flex-wrap gap-3">
             <span className="px-4 py-2 border border-gray-700 rounded-full">Scikit-Learn</span>
+            <span className="px-4 py-2 border border-gray-700 rounded-full">YoloV8</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">XGBoost</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">OpenCV</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">Predictive Analytics</span>
@@ -66,6 +70,7 @@ export default function Skills() {
             <span className="px-4 py-2 border border-gray-700 rounded-full">Express.js</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">MongoDB</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">REST APIs</span>
+            <span className="px-4 py-2 border border-gray-700 rounded-full">JWT Authentication</span>
           </div>
         </div>
 
@@ -80,6 +85,7 @@ export default function Skills() {
             <span className="px-4 py-2 border border-gray-700 rounded-full">VS Code</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">Streamlit</span>
             <span className="px-4 py-2 border border-gray-700 rounded-full">Postman</span>
+            <span className="px-4 py-2 border border-gray-700 rounded-full">Jupyter Notebook</span>
           </div>
         </div>
 

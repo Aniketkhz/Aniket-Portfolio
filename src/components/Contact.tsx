@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <section className="py-32 px-6 max-w-6xl mx-auto">
+    <section
+  id="contact"
+  className="py-32 px-6 max-w-6xl mx-auto"
+>
 
       <div className="border border-gray-800 rounded-3xl p-12 text-center">
 
@@ -9,14 +12,14 @@ export default function Contact() {
         </p>
 
         <h2 className="text-5xl font-bold mb-6">
-          Let's Build Something Together
+          Open to Opportunities
         </h2>
 
         <p className="text-gray-400 max-w-2xl mx-auto text-lg mb-10">
           I'm actively seeking opportunities in Data Analytics,
-          Machine Learning, AI Engineering, and Software Development.
-          Feel free to reach out for collaborations, internships,
-          or full-time opportunities.
+Artificial Intelligence, Machine Learning, and Software
+Development. Whether it's an internship, full-time role,
+or a challenging project, I'd be glad to connect and discuss.
         </p>
 
         <a
