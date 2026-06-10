@@ -1,96 +1,127 @@
 export default function Skills() {
   return (
     <section
-  id="skills"
-  className="py-32 px-6 max-w-6xl mx-auto"
->
-
-      <h2 className="text-5xl font-bold mb-4">
+      id="skills"
+      className="py-32 px-6 max-w-6xl mx-auto"
+    >
+      <h2 className="text-6xl font-bold text-[#722F37] mb-4">
         Skills & Technologies
       </h2>
 
-      <p className="text-gray-400 mb-16">
+      <p className="text-[#6B7280] text-lg mb-16 max-w-4xl">
         Technologies, tools, and frameworks used across data analytics,
         machine learning, AI engineering, and full-stack development.
       </p>
 
       <div className="grid md:grid-cols-2 gap-8">
 
-        <div className="border border-gray-800 rounded-3xl p-8">
-          <h3 className="text-2xl font-bold mb-6">
+        <div className="border border-[#b8a98a] rounded-3xl p-10">
+          <h3 className="text-3xl font-bold text-[#722F37] mb-8">
             Programming
           </h3>
 
-          <div className="flex flex-wrap gap-3">
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Python</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">JavaScript</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">SQL</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Java</span>
+          <div className="flex flex-wrap gap-4">
+            {["Python", "JavaScript", "SQL", "Java"].map((skill) => (
+              <span
+                key={skill}
+                className="px-5 py-3 border border-[#b8a98a] rounded-full text-[#722F37]"
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
 
-        <div className="border border-gray-800 rounded-3xl p-8">
-          <h3 className="text-2xl font-bold mb-6">
+        <div className="border border-[#b8a98a] rounded-3xl p-10">
+          <h3 className="text-3xl font-bold text-[#722F37] mb-8">
             Data Analytics
           </h3>
 
-          <div className="flex flex-wrap gap-3">
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Pandas</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">NumPy</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Excel</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Tableau</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Power BI</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Streamlit</span>
+          <div className="flex flex-wrap gap-4">
+            {["Pandas", "NumPy", "Excel", "Tableau", "Power BI", "Streamlit"].map((skill) => (
+              <span
+                key={skill}
+                className="px-5 py-3 border border-[#b8a98a] rounded-full text-[#722F37]"
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
 
-        <div className="border border-gray-800 rounded-3xl p-8">
-          <h3 className="text-2xl font-bold mb-6">
+        <div className="border border-[#b8a98a] rounded-3xl p-10">
+          <h3 className="text-3xl font-bold text-[#722F37] mb-8">
             AI & Machine Learning
           </h3>
 
-          <div className="flex flex-wrap gap-3">
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Scikit-Learn</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">YoloV8</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">XGBoost</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">OpenCV</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Predictive Analytics</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Computer Vision</span>
+          <div className="flex flex-wrap gap-4">
+            {[
+              "Scikit-Learn",
+              "YOLOv8",
+              "XGBoost",
+              "OpenCV",
+              "Predictive Analytics",
+              "Computer Vision",
+            ].map((skill) => (
+              <span
+                key={skill}
+                className="px-5 py-3 border border-[#b8a98a] rounded-full text-[#722F37]"
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
 
-        <div className="border border-gray-800 rounded-3xl p-8">
-          <h3 className="text-2xl font-bold mb-6">
+        <div className="border border-[#b8a98a] rounded-3xl p-10">
+          <h3 className="text-3xl font-bold text-[#722F37] mb-8">
             Backend Development
           </h3>
 
-          <div className="flex flex-wrap gap-3">
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Flask</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Node.js</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Express.js</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">MongoDB</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">REST APIs</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">JWT Authentication</span>
+          <div className="flex flex-wrap gap-4">
+            {[
+              "Flask",
+              "Node.js",
+              "Express.js",
+              "MongoDB",
+              "REST APIs",
+              "JWT Authentication",
+            ].map((skill) => (
+              <span
+                key={skill}
+                className="px-5 py-3 border border-[#b8a98a] rounded-full text-[#722F37]"
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
 
-        <div className="border border-gray-800 rounded-3xl p-8 md:col-span-2">
-          <h3 className="text-2xl font-bold mb-6">
+        <div className="border border-[#b8a98a] rounded-3xl p-10 md:col-span-2">
+          <h3 className="text-3xl font-bold text-[#722F37] mb-8">
             Tools
           </h3>
 
-          <div className="flex flex-wrap gap-3">
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Git</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">GitHub</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">VS Code</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Streamlit</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Postman</span>
-            <span className="px-4 py-2 border border-gray-700 rounded-full">Jupyter Notebook</span>
+          <div className="flex flex-wrap gap-4">
+            {[
+              "Git",
+              "GitHub",
+              "VS Code",
+              "Streamlit",
+              "Postman",
+              "Jupyter Notebook",
+            ].map((skill) => (
+              <span
+                key={skill}
+                className="px-5 py-3 border border-[#b8a98a] rounded-full text-[#722F37]"
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
 
       </div>
-
     </section>
   );
 }
