@@ -70,7 +70,7 @@ export default function Projects() {
                 alt={activeProject.title}
                 width={1600}
                 height={900}
-                className="w-full h-80 object-cover"
+                className="w-full h-64 object-cover"
               />
             </div>
           )}

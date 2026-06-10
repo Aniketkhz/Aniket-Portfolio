@@ -3,7 +3,7 @@ export const projects = [
     title: "Stock Market Analytics Dashboard",
     image: "/projects/stock-dashboard.png",
     description:
-      "Built an interactive stock market analytics dashboard using Streamlit and Plotly for visualization of market trends, stock performance, and comparative analysis. Implemented dynamic filtering, KPI monitoring, and exploration of major investor-favorite stocks.",
+  "Developed an interactive analytics dashboard for stock market exploration, enabling trend analysis, performance tracking, KPI monitoring, and comparative evaluation of major publicly traded companies. Designed responsive visualizations and dynamic filtering features to support data-driven investment insights.",
 
     tech: [
       "Python",
@@ -28,7 +28,7 @@ export const projects = [
     image: "/projects/saqms.png",
 
     description:
-      "Developed a real-time appointment and queue management platform featuring authentication, live queue tracking, ETA prediction, QR-based appointments, and automated email/SMS notifications. Currently utilized by departments at IGIT Sarang.",
+  "Engineered a full-stack appointment and queue management platform with secure authentication, real-time queue monitoring, ETA prediction, QR-based appointments, and automated notifications. Successfully deployed for institutional use, improving appointment scheduling efficiency and reducing wait-time uncertainty.",
 
     tech: [
       "Node.js",
@@ -53,8 +53,7 @@ export const projects = [
     image: "/projects/pothole-detector.png",
 
     description:
-      "Developed an AI-powered pothole detection system using computer vision and OpenCV to identify road surface damage from images and video streams. Designed for smart transportation and infrastructure monitoring.",
-
+  "Built a computer vision solution for automated pothole detection using image processing and object detection techniques. Designed to support smart transportation systems by enabling rapid identification of road surface defects from images and video streams.",
     tech: [
       "Python",
       "OpenCV",
@@ -78,8 +77,7 @@ export const projects = [
     image: "/projects/churn-prediction.png",
 
     description:
-      "Built an end-to-end churn prediction pipeline using machine learning and predictive analytics. Developed a Flask API for real-time predictions and customer retention analysis.",
-
+  "Developed an end-to-end machine learning pipeline for customer churn prediction, including data preprocessing, feature engineering, model training, and API deployment. Enabled real-time prediction capabilities to support customer retention and business decision-making strategies.",
     tech: [
       "Python",
       "Pandas",
