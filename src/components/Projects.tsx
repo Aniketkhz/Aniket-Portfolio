@@ -122,7 +122,7 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 rounded-xl border border-[#b8a98a] text-[#722F37] hover:border-[#722F37] transition-all duration-300"
           >
-            View Project →
+            View Github →
           </a>
 
         </div>

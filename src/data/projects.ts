@@ -1,5 +1,34 @@
 export const projects = [
   {
+    
+    
+    title: "Ecommerce Business Intelligence Platform",
+
+  image: "/projects/ecommerce-bi-dashboard.png",
+
+  description:
+    "Built an end-to-end ecommerce analytics solution using Python, SQL, and Power BI on 100K+ marketplace orders. Performed data cleaning, exploratory analysis, feature engineering, RFM-based customer segmentation, and developed a 5-page interactive dashboard covering executive KPIs, customer behavior, product performance, seller insights, and delivery operations.",
+
+  tech: [
+    "Python",
+    "SQL",
+    "Power BI",
+    "Pandas",
+    "Business Intelligence",
+  ],
+
+  github:
+    "https://github.com/Aniketkhz/ecommerce-bi-platform",
+
+  stats: [
+    { value: "98K+", label: "Orders Analyzed" },
+    { value: "95K+", label: "Customers" },
+    { value: "5", label: "Dashboard Pages" },
+  ],
+
+  },
+  
+{
     title: "Stock Market Analytics Dashboard",
     image: "/projects/stock-dashboard.png",
     description:
